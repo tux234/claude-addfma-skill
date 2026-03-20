@@ -1,0 +1,17 @@
+# AddFMA — Personal Preferences
+
+Copy this file to:
+  ~/.claude/Skills/PAI/USER/SKILLCUSTOMIZATIONS/AddFMA/PREFERENCES.md
+
+Then fill in your values. The skill reads this file before executing any workflow.
+
+## Required Variables
+
+- `FLEET_REPO` = `/path/to/your/fleet/fleet`
+- `GITHUB_USER` = `your-github-username`
+
+## Worktree Pattern
+
+- Worktrees: `{FLEET_REPO}/.worktrees/{APP_SLUG}`
+- Branch pattern: `{GITHUB_USER}-add-fma-{APP_SLUG}`
+- Assignee: `{GITHUB_USER}`
